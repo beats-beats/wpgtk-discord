@@ -128,16 +128,53 @@ rect:not(.pointerEvents-2KjWnj) {
   left: 6px;
 }
 
-.scroller-nxCRu_ {
+/* context menu */
+.scroller-nxCRu_:not(.none-1rXy4P) {
   overflow: hidden hidden !important;
   padding: 0;
 }
+
+/* .scroller-nxCRu_ { */
+/*   overflow: hidden hidden !important; */
+/*   padding: 0; */
+/* } */
 
 .separator-12G2Op {
   margin: 0;
   /* display: none; */
 }
 
+.submenuPaddingContainer-QgnL1r {
+  /* remove padding between submenu */
+  padding: 0;
+}
+
 .item-5ApiZt {
   margin: 0
+}
+
+/* remove some seperators */
+.menu-2-eHMB div[role=separator] {
+  display: none;
+}
+
+/* user profile */
+.userPopoutOverlayBackground-3A0Pcz {
+ margin: 4px 0; 
+}
+
+/* forum card */
+.container-2qVG6q.mainCard-3KBsBI {
+  border: 1px var(--foreground) solid; 
+}
+
+/* hide nitro from input area */
+.buttons-uaqb-5 > .button-ejjZWC[aria-label="Send a gift"] {
+  display: none
+}
+
+/* main chat window (messages main window) */
+/* just adjusting the scrollbar width */
+.scroller-kQBbkU::-webkit-scrollbar {
+  width: 12px;
 }
