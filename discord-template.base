@@ -26,8 +26,6 @@
     --color15: {color15.rgb};
 }}
 
-
-
 :root {{
   --red-100: rgb(var(--color1)); /* basically discord has its own red color for things like (explore public servers) */
   --red-130: rgb(var(--color1));
@@ -353,9 +351,6 @@
 }}
 
 /* fixes that discord won't fucking fix */
-/* .container-1Lk8p7 *{ */
-/*   background-color: var(--background) !important; */
-/* } */
 
 .root-1CAIjD, .footer-IubaaS {{
   background-color: var(--background);
@@ -388,4 +383,3 @@
 .embedWrapper-1MtIDg.attachmentContentItem-UKeiCx.newMosaicStyle-2jdUaP.container-rr3Ruk {{
   border: 1px var(--foreground) solid;
 }}
-
