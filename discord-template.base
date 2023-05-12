@@ -1,0 +1,391 @@
+:root {{
+    /* Special */
+    --alpha: 0.50;
+    --background: rgb(var(--color0));
+    --background-lighter: rgba(var(--color0), var(--alpha));
+    --foreground: rgb(var(--color7));
+    --foreground-lighter: rgba(var(--color7), var(--alpha));
+    --accent:	255, 16, 240;
+
+    /* Colors */
+    --color0: {color0.rgb};
+    --color1: {color1.rgb};
+    --color2: {color2.rgb};
+    --color3: {color3.rgb};
+    --color4: {color4.rgb};
+    --color5: {color5.rgb};
+    --color6: {color6.rgb};
+    --color7: {color7.rgb};
+    --color8: {color8.rgb};
+    --color9: {color9.rgb};
+    --color10: {color10.rgb};
+    --color11: {color11.rgb};
+    --color12: {color12.rgb};
+    --color13: {color13.rgb};
+    --color14: {color14.rgb};
+    --color15: {color15.rgb};
+}}
+
+
+
+:root {{
+  --red-100: rgb(var(--color1)); /* basically discord has its own red color for things like (explore public servers) */
+  --red-130: rgb(var(--color1));
+  --red-160: rgb(var(--color1));
+  --red-200: rgb(var(--color1));
+  --red-230: rgb(var(--color1));
+  --red-260: rgb(var(--color1));
+  --red-300: rgb(var(--color1));
+  --red-330: rgb(var(--color1));
+  --red-345: rgb(var(--color1));
+  --red-360: rgb(var(--color1));
+  --red-400: rgb(var(--color1));
+  --red-430: rgb(var(--color1));
+  --red-460: rgb(var(--color1));
+  --red-500: rgb(var(--color1));
+  --red-530: rgb(var(--color1));
+  --red-560: rgb(var(--color1));
+  --red-600: rgb(var(--color1));
+  --red-630: rgb(var(--color1));
+  --red-660: rgb(var(--color1));
+  --red-700: rgb(var(--color1));
+  --red-730: rgb(var(--color1));
+  --red-760: rgb(var(--color1));
+  --red-800: rgb(var(--color1));
+  --red-830: rgb(var(--color1));
+  --red-860: rgb(var(--color1));
+  --red-900: rgb(var(--color1));
+
+  --green-100: rgb(var(--color2)); /* basically discord has its own green color for things like (explore public servers) */
+  --green-130: rgb(var(--color2));
+  --green-160: rgb(var(--color2));
+  --green-200: rgb(var(--color2));
+  --green-230: rgb(var(--color2));
+  --green-260: rgb(var(--color2));
+  --green-300: rgb(var(--color2));
+  --green-330: rgb(var(--color2));
+  --green-345: rgb(var(--color2));
+  --green-360: rgb(var(--color2));
+  --green-400: rgb(var(--color2));
+  --green-430: rgb(var(--color2));
+  --green-460: rgb(var(--color2));
+  --green-500: rgb(var(--color2));
+  --green-530: rgb(var(--color2));
+  --green-560: rgb(var(--color2));
+  --green-600: rgb(var(--color2));
+  --green-630: rgb(var(--color2));
+  --green-660: rgb(var(--color2));
+  --green-700: rgb(var(--color2));
+  --green-730: rgb(var(--color2));
+  --green-760: rgb(var(--color2));
+  --green-800: rgb(var(--color2));
+  --green-830: rgb(var(--color2));
+  --green-860: rgb(var(--color2));
+  --green-900: rgb(var(--color2));
+
+  --blue-100: rgb(var(--color4)); /* basically discord has its own green color for things like (explore public servers) */
+  --blue-130: rgb(var(--color4));
+  --blue-160: rgb(var(--color4));
+  --blue-200: rgb(var(--color4));
+  --blue-230: rgb(var(--color4));
+  --blue-260: rgb(var(--color4));
+  --blue-300: rgb(var(--color4));
+  --blue-330: rgb(var(--color4));
+  --blue-345: rgb(var(--color4));
+  --blue-360: rgb(var(--color4));
+  --blue-400: rgb(var(--color4));
+  --blue-430: rgb(var(--color4));
+  --blue-460: rgb(var(--color4));
+  --blue-500: rgb(var(--color4));
+  --blue-530: rgb(var(--color4));
+  --blue-560: rgb(var(--color4));
+  --blue-600: rgb(var(--color4));
+  --blue-630: rgb(var(--color4));
+  --blue-660: rgb(var(--color4));
+  --blue-700: rgb(var(--color4));
+  --blue-730: rgb(var(--color4));
+  --blue-760: rgb(var(--color4));
+  --blue-800: rgb(var(--color4));
+  --blue-830: rgb(var(--color4));
+  --blue-860: rgb(var(--color4));
+  --blue-900: rgb(var(--color4));
+
+  --yellow-100: rgb(var(--color3)); /* basically discord has its own yellow color for things like (explore public servers) */
+  --yellow-130: rgb(var(--color3));
+  --yellow-160: rgb(var(--color3));
+  --yellow-200: rgb(var(--color3));
+  --yellow-230: rgb(var(--color3));
+  --yellow-260: rgb(var(--color3));
+  --yellow-300: rgb(var(--color3));
+  --yellow-330: rgb(var(--color3));
+  --yellow-345: rgb(var(--color3));
+  --yellow-360: rgb(var(--color3));
+  --yellow-400: rgb(var(--color3));
+  --yellow-430: rgb(var(--color3));
+  --yellow-460: rgb(var(--color3));
+  --yellow-500: rgb(var(--color3));
+  --yellow-530: rgb(var(--color3));
+  --yellow-560: rgb(var(--color3));
+  --yellow-600: rgb(var(--color3));
+  --yellow-630: rgb(var(--color3));
+  --yellow-660: rgb(var(--color3));
+  --yellow-700: rgb(var(--color3));
+  --yellow-730: rgb(var(--color3));
+  --yellow-760: rgb(var(--color3));
+  --yellow-800: rgb(var(--color3));
+  --yellow-830: rgb(var(--color3));
+  --yellow-860: rgb(var(--color3));
+  --yellow-900: rgb(var(--color3));
+
+  --white-100: var(--foreground); /* basically discord has its own white color for things like (explore public servers) */
+  --white-130: var(--foreground);
+  --white-160: var(--foreground);
+  --white-200: var(--foreground);
+  --white-230: var(--foreground);
+  --white-260: var(--foreground);
+  --white-300: var(--foreground);
+  --white-330: var(--foreground);
+  --white-345: var(--foreground);
+  --white-360: var(--foreground);
+  --white-400: var(--foreground);
+  --white-430: var(--foreground);
+  --white-460: var(--foreground);
+  --white-500: var(--foreground);
+  --white-530: var(--foreground);
+  --white-560: var(--foreground);
+  --white-600: var(--foreground);
+  --white-630: var(--foreground);
+  --white-660: var(--foreground);
+  --white-700: var(--foreground);
+  --white-730: var(--foreground);
+  --white-760: var(--foreground);
+  --white-800: var(--foreground);
+  --white-830: var(--foreground);
+  --white-860: var(--foreground);
+  --white-900: var(--foreground);
+
+  --black-100: rgb(var(--color0));
+  --black-200: rgb(var(--color0)); 
+  --black-130: rgb(var(--color0));
+  --black-160: rgb(var(--color0));
+  --black-200: rgb(var(--color0));
+  --black-230: rgb(var(--color0));
+  --black-260: rgb(var(--color0));
+  --black-300: rgb(var(--color0));
+  --black-330: rgb(var(--color0));
+  --black-345: rgb(var(--color0));
+  --black-360: rgb(var(--color0));
+  --black-400: rgb(var(--color0));
+  --black-430: rgb(var(--color0));
+  --black-460: rgb(var(--color0));
+  --black-500: rgb(var(--color0));
+  --black-530: rgb(var(--color0));
+  --black-560: rgb(var(--color0));
+  --black-600: rgb(var(--color0));
+  --black-630: rgb(var(--color0));
+  --black-660: rgb(var(--color0));
+  --black-700: rgb(var(--color0));
+  --black-730: rgb(var(--color0));
+  --black-760: rgb(var(--color0));
+  --black-800: rgb(var(--color0));
+  --black-830: rgb(var(--color0));
+  --black-860: rgb(var(--color0));
+  --black-900: rgb(var(--color0));
+
+  /* --brand-100: rgb(var(--color4)); */
+  /* --brand-200: rgb(var(--color4));  */
+  /* --brand-130: rgb(var(--color4)); */
+  /* --brand-160: rgb(var(--color4)); */
+  /* --brand-200: rgb(var(--color4)); */
+  /* --brand-230: rgb(var(--color4)); */
+  /* --brand-260: rgb(var(--color4)); */
+  /* --brand-300: rgb(var(--color4)); */
+  /* --brand-330: rgb(var(--color4)); */
+  /* --brand-345: rgb(var(--color4)); */
+  --brand-360: rgb(var(--color4));
+  --brand-400: rgb(var(--color4));
+  /* --brand-430: rgb(var(--color4)); */
+  /* --brand-460: rgb(var(--color4)); */
+  --brand-500: rgb(var(--color4));
+  /* --brand-530: rgb(var(--color4)); */
+  --brand-560: rgba(var(--color4), 0.8);
+  --brand-600: rgba(var(--color4), 0.6);
+  /* --brand-630: rgb(var(--color4)); */
+  /* --brand-660: rgb(var(--color4)); */
+  /* --brand-700: rgb(var(--color4)); */
+  /* --brand-730: rgb(var(--color4)); */
+  /* --brand-760: rgb(var(--color4)); */
+  /* --brand-800: rgb(var(--color4)); */
+  /* --brand-830: rgb(var(--color4)); */
+  /* --brand-860: rgb(var(--color4)); */
+  /* --brand-900: rgb(var(--color4)); */
+
+  --primary-130: var(--foreground); /* channel header color */
+  --primary-200: var(--background); /* input background color */
+  --primary-230: var(--foreground); /* profile text color */
+  --primary-300: var(--foreground-lighter); /* fullscreen button icon */
+  --primary-330: var(--foreground-lighter); /* colors of some icons and forums color scheme changes */ 
+  --primary-360: var(--foreground); /* channel text color */
+  --primary-400: var(--foreground); /* channel list icons */
+  --primary-430: var(--foreground-lighter); /* channel list icons */
+  --primary-500: var(--foreground-lighter); /* */
+  --primary-530: var(--background); /* the background color of "jump to present" button that appears on the bottom */
+  --primary-560: var(--background); /* input area */
+  --primary-600: var(--background); /* forum color changes */
+  --primary-630: var(--background); /* sidebars background */
+  --primary-645: var(--background); /* more background changes */
+  --primary-660: var(--background); /* channel sidebar footer color */
+  --primary-700: var(--background); /* seach, and server sidebar */
+  /* --primary-730: rgba(var(--color4), 1); /* scrollbar color */
+  --primary-730: var(--foreground-lighter);
+  --primary-800: var(--background); /* profile background color */
+  --primary-860: var(--foreground);
+
+  /* some colors are in hsl format. So I have to override em */
+  --background-modifier-accent: rgba(var(--color7), 0.18);
+  --background-modifier-active: rgba(var(--color7), 0.18);
+  --background-modifier-hover: rgba(var(--color7), 0.10);
+  --background-modifier-selected: rgba(var(--color7), 0.28);
+
+  --guild-boosting-pink: rgb(var(--color5));
+}}
+
+.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB,
+.theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9, .pageBody-23bo4p {{
+  background-color: var(--background);
+}}
+.theme-dark .innerHeader-1cC3Fp:after {{
+  background: transparent;
+}}
+.optionButtonWrapper-2lbogO.selected-KQBgNS {{
+  border-color: rgb(var(--color4));
+}}
+
+/* basically some colors cannot be changed as they are not storred in a variable or anything*/
+
+/* switch button colors */
+.control-10qYax {{
+  border: 3px solid rgb(var(--color7)) !important;
+  border-radius: 99999px;
+}}
+
+.slider-HJFN2i rect {{
+  fill: var(--foreground) !important;
+}}
+
+.container-1QtPKm.checked-16gMAN {{
+  background-color: var(--green-100) !important;
+}}
+
+.container-1QtPKm {{
+  background-color: var(--background) !important;
+}}
+
+.container-1QtPKm > .slider-HJFN2i path {{
+  fill: var(--background) !important; 
+}}
+
+.container-1QtPKm.checked-16gMAN > .slider-HJFN2i path {{
+  fill: rgb(var(--color2)) !important; 
+}}
+
+/* status of members */
+.wrapper-3Un6-K[aria-label*="Offline"] > svg > rect {{
+  fill: var(--foreground)
+}}
+
+.wrapper-3Un6-K[aria-label*="Invisible"] > svg > rect {{
+  fill: var(--foreground)
+}}
+
+.wrapper-3Un6-K[aria-label*="Online"] > svg > rect {{
+  fill: rgb(var(--color2));
+}}
+
+.wrapper-3Un6-K[aria-label*="Disturb"] > svg > rect {{
+  fill: rgb(var(--color1));
+}}
+
+.wrapper-3Un6-K[aria-label*="Idle"] > svg > rect {{
+  fill: rgb(var(--color3));
+}}
+
+/* folder */
+.folderIconWrapper-1oRIZr {{
+ background-color: rgba(var(--color4), 0.6) !important;
+}}
+
+.expandedFolderIconWrapper-3RwQpD > svg {{
+ color: var(--foreground) !important;
+}}
+
+/* embed left-side vert-bar color*/
+.container-2sjPya > .embedWrapper-1MtIDg.embedFull-1HGV2S {{
+  border-color: var(--foreground) !important;
+}}
+
+/* search filter */
+.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk {{
+    background-color: transparent;
+}}
+
+.option-ayUoaq:hover, .option-ayUoaq:after {{
+  background: transparent;
+}}
+
+.option-ayUoaq .nonText-28q_Ot {{
+  color: var(--foreground)
+}}
+
+/* settings active buttons fix */
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:active {{
+  background-color: var(--foreground-lighter);
+}}
+
+/* nitro button in settings */
+[class='premiumLabel-3HPvdB'] > svg > path {{
+  fill: var(--primary-330);
+}}
+
+/* placehold text color */
+::placeholder {{
+  color: var(--foreground) !important;
+}}
+
+/* fixes that discord won't fucking fix */
+/* .container-1Lk8p7 *{ */
+/*   background-color: var(--background) !important; */
+/* } */
+
+.root-1CAIjD, .footer-IubaaS {{
+  background-color: var(--background);
+}}
+
+.container-x8Y1ix {{
+  border: 0px;
+  background-color: var(--background);
+}}
+
+.container-x8Y1ix > .defaultColor-1EVLSt,
+.button-ejjZWC .contents-3NembX{{
+  color: var(--foreground);
+}}
+
+.container-x8Y1ix:hover {{
+  background-color: rgba(var(--color7), 0.18)
+}}
+
+.container-x8Y1ix:active {{
+  /* background-color: var(--foreground-lighter); */
+  background-color: var(--foreground-lighter);
+}}
+
+.inputWrapper-2K8ds1 > .input-3O04eu  {{
+  color: var(--foreground);
+}}
+
+.markup-eYLPri code,
+.embedWrapper-1MtIDg.attachmentContentItem-UKeiCx.newMosaicStyle-2jdUaP.container-rr3Ruk {{
+  border: 1px var(--foreground) solid;
+}}
+
