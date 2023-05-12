@@ -196,7 +196,7 @@
   /* --brand-160: rgb(var(--color4)); */
   /* --brand-200: rgb(var(--color4)); */
   /* --brand-230: rgb(var(--color4)); */
-  /* --brand-260: rgb(var(--color4)); */
+  --brand-260: rgb(var(--color0));
   /* --brand-300: rgb(var(--color4)); */
   /* --brand-330: rgb(var(--color4)); */
   /* --brand-345: rgb(var(--color4)); */
