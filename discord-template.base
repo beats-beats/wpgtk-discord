@@ -350,7 +350,7 @@
   color: var(--foreground) !important;
 }}
 
-/* fixes that discord won't fucking fix */
+/* fixes shit that discord won't fucking fix */
 
 .root-1CAIjD, .footer-IubaaS {{
   background-color: var(--background);
