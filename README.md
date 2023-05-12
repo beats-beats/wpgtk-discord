@@ -9,3 +9,6 @@ here's an example video:
 
 [](https://github.com/beats-exe/wpgtk-discord/assets/31421575/f6a6a4e1-561c-44f0-a1c4-86b094a52170)
 
+# sharpUI
+My personal discord css that I use to match my boxy lookin theme so no rounded corners
+![image](https://github.com/beats-exe/wpgtk-discord/assets/31421575/33fb0d51-b66e-457d-b5a1-28a071ef0b50)
