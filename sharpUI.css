@@ -1,13 +1,155 @@
+/* my personal changes to discord (make it more compact and style it to match my window manager) */
+*, *::before, *::after {
+  font-family: monospace !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  mask: none !important;
+  /* -webkit-mask: !important; */
+}
+
+circle {
+  display: none !important
+}
+rect:not(.pointerEvents-2KjWnj) {
+  display: none !important;
+}
+
+/* sidebar (channel sidebar) */
+.sidebar-1tnWFu {
+  width: 200px;
+}
+
+.container-2giAcK {
+  margin: 0px;
+}
+
+.side-1lrxIh .item-2GWPIy {
+  margin: 0px;
+}
+
+.sidebar-1tnWFu *{
+  border: 0;
+}
+
+.container-YkUktl {
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.withTagAsButton-OsgQ9L {
+  margin: 0;
+  padding: 0 0;
+  min-width: 104px;
+}
+
+.withTagAsButton-OsgQ9L .nameTag-sc-gpq, .withTagless-10ooWt .nameTag-sc-gpq {
+  padding: 0;
+  margin: 0 4px;
+}
+
+.itemInner-3k3Sn6 {
+  margin: 0;
+}
+
+.subtext-2HDqJ7 {
+  display: none;
+}
+
+/* sidebar (DM) */
+.channel-1Shao0 {
+  margin: 0
+}
+
+.container-32HW5s {
+  padding: 0
+}
+
+/* main window (DM) */
+.peopleListItem-u6dGxF, .peopleListItem-u6dGxF:hover, .peopleListItem-u6dGxF.active-2UF8Zh {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.title-x4dI75 {
+ margin: 0;
+ margin-left: 10px;
+}
+
+.searchBar-2aylmZ {
+  margin: 0px;
+  padding: 5px;
+}
+
+.tabBar-ra-EuL .item-3mHhwr {
+  margin: 0px;
+}
+
+/* .subtext-2HDqJ7 { */
+/*   display: none; */
+/* } */
+
+.content-1gYQeQ {
+  margin: 0;
+}
+
+.wrapper-NhbLHG {
+  padding: 0;
+}
+
+/*scrollbar todo */
+.sidebar-1tnWFu ::-webkit-scrollbar {
+  display: none;
+}
+
+/* sidebar (members list) */
+.memberInner--L4X2b {
+  padding: 0;
+}
+
+.member-48YF_l, .members-3WRCEx {
+  margin: 0;
+  padding: 0;
+}
+
+.container-1oeRFJ {
+  padding: 0;
+}
+
+.membersGroup-2eiWxl {
+  padding: 15px 4px;
+  height: 20px;
+}
+
+.layout-1qmrhw {
+  padding: 0;
+  height: auto;
+}
+
+/* sidebar (server list) */
+.guilds-2JjMmN, .listItem-3SmSlK {
+  width: 60px;
+}
+
+.item-2LIpTv {
+ /* width: 10px; */
+ margin: 0px;
+}
+.wrapper-z5ab_q {
+  height: 47px;
+}
+
+.expandedFolderBackground-1kSAf6 {
+  width: 48px;
+  left: 6px;
+}
+
+
 /* context menu */
 .scroller-nxCRu_:not(.none-1rXy4P) {
   overflow: hidden hidden !important;
   padding: 0;
 }
-
-/* .scroller-nxCRu_ { */
-/*   overflow: hidden hidden !important; */
-/*   padding: 0; */
-/* } */
 
 .separator-12G2Op {
   margin: 0;
@@ -49,3 +191,52 @@
   width: 12px;
 }
 
+/* input area */
+.form-3gdLxP {
+  padding: 0;
+  margin: 0;
+}
+
+/* header moment */
+.header-3OsQeK {
+  padding: 8px;
+}
+
+.container-ZMc96U {
+  height: 40px;
+  padding: 0px;
+}
+
+/* notification draw inline tag margin */
+.header-145e10 .tab-TRrPC8.expanded-2H1xJ- {
+  margin: 0;
+}
+
+/* adding sidebar borders and shit */
+.sidebar-1tnWFu {
+  border-right: 1px solid var(--foreground);
+  border-left: 1px solid var(--foreground); 
+}
+
+.container-2o3qEW {
+  border-left: 1px solid var(--foreground); 
+}
+
+.form-3gdLxP {
+  border-top: 1px solid var(--foreground); 
+}
+
+ .accountProfileCard-lbN7n-, .container-2ebMPP {
+  border: 1px solid var(--foreground); 
+}
+
+/* remove blank div from sidebar */
+.content-yjf30S[aria-label="Channels"] > div,
+[aria-label="Direct Messages"] > div[aria-hidden="true"] {
+  display: none;
+}
+
+/* hide shit */
+.searchBar-3TnChZ {
+  display: none;
+}
