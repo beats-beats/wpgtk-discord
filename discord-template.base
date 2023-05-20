@@ -383,3 +383,7 @@
 .embedWrapper-1MtIDg.attachmentContentItem-UKeiCx.newMosaicStyle-2jdUaP.container-rr3Ruk {{
   border: 1px var(--foreground) solid;
 }}
+
+.cooldownWrapper-2k1jHK {
+  color: var(--foreground) !important;
+}
