@@ -4,17 +4,19 @@
   border-radius: 0 !important;
   box-shadow: none !important;
   mask: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
   /* -webkit-mask: !important; */
 }
 
 circle {
   display: none !important
 }
-rect:not(.pointerEvents-2KjWnj) {
-  display: none !important;
-}
 
 /* sidebar (channel sidebar) */
+
 .sidebar-1tnWFu {
   width: 200px;
 }
@@ -54,6 +56,34 @@ rect:not(.pointerEvents-2KjWnj) {
 
 .subtext-2HDqJ7 {
   display: none;
+}
+
+li.containerDefault-3TQ5YN:nth-of-type(1) {
+  padding: 0;
+}
+
+.buttonIcon-2Zsrs2 {
+  width: 10px;
+  height: 10px;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
+  padding: 0;
+  margin: 0;
+}
+
+/* sidebar (hub) */
+.hubContainer-15P49h {
+  margin: 0;
+}
+
+/* sidebar (discovery) */
+.categoryItem-Kc_HK_ {
+  margin: 0;
+}
+
+.discoverHeader-1vsvZ0 {
+  margin: 5px;
 }
 
 /* sidebar (DM) */
@@ -128,22 +158,22 @@ rect:not(.pointerEvents-2KjWnj) {
 
 /* sidebar (server list) */
 .guilds-2JjMmN, .listItem-3SmSlK {
-  width: 60px;
+  width: 56px;
 }
 
 .item-2LIpTv {
- /* width: 10px; */
- margin: 0px;
-}
-.wrapper-z5ab_q {
-  height: 47px;
+ width: 1000px;
+ margin: 0;
 }
 
-.expandedFolderBackground-1kSAf6 {
-  width: 48px;
-  left: 6px;
+.scroller-3X7KbA {
+  padding: 0;
 }
 
+.listItem-3SmSlK {
+  margin: 5px 0;
+  width: 55px;
+}
 
 /* context menu */
 .scroller-nxCRu_:not(.none-1rXy4P) {
@@ -199,7 +229,7 @@ rect:not(.pointerEvents-2KjWnj) {
 
 /* header moment */
 .header-3OsQeK {
-  padding: 8px;
+  padding: 7.5px;
 }
 
 .container-ZMc96U {
@@ -212,7 +242,38 @@ rect:not(.pointerEvents-2KjWnj) {
   margin: 0;
 }
 
-/* adding sidebar borders and shit */
+/* remove blank div from sidebar */
+.content-yjf30S[aria-label="Channels"] > div,
+[aria-label="Direct Messages"] > div[aria-hidden="true"] {
+  display: none;
+}
+
+/* hide shit */
+.searchBar-3TnChZ {
+  display: none;
+}
+
+.animatedContainer-2laTjx, .communityInfoContainer-1dMVpU {
+  display: none;
+}
+
+.cursorDefault-2M8ZNp {
+  display: none
+}
+
+.guildSeparator-a4uisj {
+  display: none;
+}
+
+.slider-HJFN2i {
+  display: none;
+}
+
+.headerImage-Xy5R7m.desaturate-_Twf3u, .headerImage-2D5D-v.desaturate-_Twf3u {
+  display: none
+}
+
+/* adding sidebar borders and shit (OPTIONAL)*/
 .sidebar-1tnWFu {
   border-right: 1px solid var(--foreground);
   border-left: 1px solid var(--foreground); 
@@ -226,17 +287,17 @@ rect:not(.pointerEvents-2KjWnj) {
   border-top: 1px solid var(--foreground); 
 }
 
- .accountProfileCard-lbN7n-, .container-2ebMPP {
+.title-31SJ6t, .header-3OsQeK {
+  border-bottom: 1px solid var(--foreground); 
+}
+
+.accountProfileCard-lbN7n-, .container-2ebMPP,
+.scroller-nxCRu_:not(.none-1rXy4P),
+.accountProfilePopoutWrapper-3GskID, .animatorLeft-1I1Kvj.translate-2vghI-.didRender-2dwLEv,
+.lookFilled-GPyucw.select-Zz0IcO,
+#popout_6584, .wrapper-2vIMkT, /* .wrapper-2fEmwW, */ .actionButtons-2vEOUh > *,
+.jumpToPresentBar-1cEnH0.barBase-3xxDXu,
+.loaded-igpmmx,
+.row--LCpto {
   border: 1px solid var(--foreground); 
-}
-
-/* remove blank div from sidebar */
-.content-yjf30S[aria-label="Channels"] > div,
-[aria-label="Direct Messages"] > div[aria-hidden="true"] {
-  display: none;
-}
-
-/* hide shit */
-.searchBar-3TnChZ {
-  display: none;
 }

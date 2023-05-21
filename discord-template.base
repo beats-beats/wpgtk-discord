@@ -262,13 +262,17 @@
 /* basically some colors cannot be changed as they are not storred in a variable or anything*/
 
 /* switch button colors */
-.control-10qYax {{
-  border: 3px solid rgb(var(--color7)) !important;
-  border-radius: 99999px;
+
+.container-1QtPKm {{
+  border: 2px solid rgb(var(--color7)) !important;
 }}
 
 .slider-HJFN2i rect {{
   fill: var(--foreground) !important;
+}}
+
+.slider-HJFN2i {{
+  margin: 1px;
 }}
 
 .container-1QtPKm.checked-16gMAN {{
@@ -384,6 +388,12 @@
   border: 1px var(--foreground) solid;
 }}
 
-.cooldownWrapper-2k1jHK {
+/* slowmo text color */
+.cooldownWrapper-2k1jHK {{
   color: var(--foreground) !important;
-}
+}}
+
+.theme-dark .invite-3uuHYQ {{
+  background-color: var(--background);
+  border-color: var(--foreground)
+}}
