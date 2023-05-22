@@ -58,10 +58,6 @@ circle {
   display: none;
 }
 
-li.containerDefault-3TQ5YN:nth-of-type(1) {
-  padding: 0;
-}
-
 .buttonIcon-2Zsrs2 {
   width: 10px;
   height: 10px;
@@ -243,8 +239,15 @@ li.containerDefault-3TQ5YN:nth-of-type(1) {
 }
 
 /* remove blank div from sidebar */
-.content-yjf30S[aria-label="Channels"] > div,
-[aria-label="Direct Messages"] > div[aria-hidden="true"] {
+.content-yjf30S[aria-label="Channels"] > div:nth-child(1),
+.content-yjf30S[aria-label="Channels"] > div:nth-child(2), 
+.content-yjf30S[aria-label="Channels"] > div:nth-child(6), 
+.sectionDivider-189lqb,
+.container-2giAcK {
+  display: none;
+}
+
+.animatedBannerHoverLayer-129r1v {
   display: none;
 }
 
