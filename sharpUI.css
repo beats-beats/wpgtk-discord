@@ -58,6 +58,10 @@ circle {
   display: none;
 }
 
+li.containerDefault-3TQ5YN:nth-of-type(1) {
+  padding: 0;
+}
+
 .buttonIcon-2Zsrs2 {
   width: 10px;
   height: 10px;
@@ -65,6 +69,10 @@ circle {
 
 .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
   padding: 0;
+  margin: 0;
+}
+
+.link-1_kTxV {
   margin: 0;
 }
 
@@ -238,21 +246,22 @@ circle {
   margin: 0;
 }
 
-/* remove blank div from sidebar */
-.content-yjf30S[aria-label="Channels"] > div:nth-child(1),
-.content-yjf30S[aria-label="Channels"] > div:nth-child(2), 
-.content-yjf30S[aria-label="Channels"] > div:nth-child(6), 
-.sectionDivider-189lqb,
-.container-2giAcK {
-  display: none;
+/* remove blank div from sidebar (this used to break shit)*/
+.content-yjf30S div[style="height: 12px;"] {
+  height: 0px !important;
 }
 
-.animatedBannerHoverLayer-129r1v {
-  display: none;
+.content-yjf30S div[style="height: 84px;"] {
+  height: 0px !important;
 }
+
 
 /* hide shit */
 .searchBar-3TnChZ {
+  display: none;
+}
+
+.containerWithMargin-1CVXAM, .sectionDivider-189lqb {
   display: none;
 }
 
@@ -304,3 +313,4 @@ circle {
 .row--LCpto {
   border: 1px solid var(--foreground); 
 }
+
