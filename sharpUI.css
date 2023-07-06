@@ -78,7 +78,7 @@ li.containerDefault-3TQ5YN:nth-of-type(1) {
 
 /* sidebar (hub) */
 .hubContainer-15P49h {
-  margin: 0;
+  margin: 0px;
 }
 
 /* sidebar (discovery) */
@@ -246,9 +246,16 @@ li.containerDefault-3TQ5YN:nth-of-type(1) {
   margin: 0;
 }
 
-/* remove blank div from sidebar */
-.content-yjf30S[aria-label="Channels"] > div,
-[aria-label="Direct Messages"] > div[aria-hidden="true"] {
+/* remove blank div from sidebar (this used to break shit)*/
+.content-yjf30S div[style="height: 12px;"] {
+  height: 0px !important;
+}
+
+.content-yjf30S div[style="height: 84px;"] {
+  height: 0px !important; 
+}
+
+.sectionDivider-189lqb, .container-2giAcK {
   display: none;
 }
 
