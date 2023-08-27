@@ -184,6 +184,10 @@ li.containerDefault-3TQ5YN:nth-of-type(1) {
   display: none;
 }
 
+ul[id*='folder-items'] {
+ height: auto !important;
+}
+
 /* context menu */
 .scroller-nxCRu_:not(.none-1rXy4P) {
   overflow: hidden hidden !important;
