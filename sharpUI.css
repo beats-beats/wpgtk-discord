@@ -163,7 +163,7 @@ li.containerDefault-3TQ5YN:nth-of-type(1) {
 
 /* sidebar (server list) */
 .guilds-2JjMmN, .listItem-3SmSlK {
-  width: 56px;
+  width: 48px;
 }
 
 .item-2LIpTv {
@@ -176,8 +176,12 @@ li.containerDefault-3TQ5YN:nth-of-type(1) {
 }
 
 .listItem-3SmSlK {
-  margin: 5px 0;
-  width: 55px;
+  margin: 0px 0;
+  width: 48px;
+}
+
+.expandedFolderBackground-1kSAf6 {
+  display: none;
 }
 
 /* context menu */
