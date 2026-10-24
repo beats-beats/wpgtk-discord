@@ -31,6 +31,8 @@
 
 * {
   text-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
 }
 
 /* Square everything, including pseudo-elements */
