@@ -35,16 +35,12 @@ input[type="radio"]:checked {
   font-family: monospace !important;
   border-radius: 0 !important;
   box-shadow: none !important;
+  mask: none !important;
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -o-transition: none !important;
   transition: none !important;
 }
-
-foreignObject, rect {
-    mask: none !important;
-}
-
 /* sidebar (channel sidebar) */
 
 .sidebar-1tnWFu {
