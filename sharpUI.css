@@ -1,62 +1,3 @@
-/* Font: monospace everywhere except icons and math */
-*:not(
-  [class*="icon" i], [class*="symbol" i], [class*="material" i],
-  [class*="fa-" i], [class*="bi-" i], [class*="mdi" i], [class*="ion-" i],
-  .fa, .fas, .far, .fab, .fal, .fad, .bi,
-  [data-cds*="icon" i], [data-icon], [role="img"],
-  mat-icon, md-icon, sl-icon, ion-icon, iconify-icon,
-  [class*="katex" i], [class*="katex" i] *,
-  [class*="mathjax" i], mjx-container, mjx-container *,
-  math, math *
-) {
-  font-family: monospace, monospace,
-    "Font Awesome 6 Free", "Font Awesome 6 Brands",
-    "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome",
-    "bootstrap-icons", "Material Design Icons", "Glyphicons Halflings" !important;
-}
-
-/* Shapes: flatten, but keep CSS-drawn UI pieces intact */
-*:not(
-  [class*="avatar" i], [class*="spinner" i], [class*="loader" i],
-  [class*="loading" i], [class*="badge" i], [class*="toggle" i],
-  [class*="switch" i], [class*="radio" i], [class*="marker" i],
-  [class*="dot" i]
-) {
-  border-radius: 0 !important;
-}
-
-*:not(:focus-visible) {
-  box-shadow: none !important;
-}
-
-* {
-  text-shadow: none !important;
-  box-shadow: none !important;
-  border-radius: 0 !important;
-}
-
-/* Square everything, including pseudo-elements */
-*,
-*::before,
-*::after {
-  border-radius: 0 !important;
-}
-
-*:not(:focus-visible),
-*::before,
-*::after {
-  box-shadow: none !important;
-}
-
-/* Native control parts (keep separate: one unknown selector kills a whole rule) */
-::-moz-range-thumb,
-::-moz-range-track,
-::-moz-progress-bar,
-::-moz-meter-bar,
-::file-selector-button {
-  border-radius: 0 !important;
-}
-
 [data-slot="switch-thumb"] svg path {
   d: path("M0 0H19V19H0Z M6.333 6.333V12.667H12.667V6.333Z") !important;
   fill-rule: evenodd !important;
@@ -94,9 +35,15 @@ input[type="radio"]:checked {
   font-family: monospace !important;
   border-radius: 0 !important;
   box-shadow: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
 }
 
-
+foreignObject, rect {
+    mask: none !important;
+}
 
 /* sidebar (channel sidebar) */
 
@@ -392,15 +339,4 @@ ul[id*='folder-items'] {
 
 .title-31SJ6t, .header-3OsQeK {
   border-bottom: 1px solid var(--foreground); 
-}
-
-.accountProfileCard-lbN7n-, .container-2ebMPP,
-.scroller-nxCRu_:not(.none-1rXy4P),
-.accountProfilePopoutWrapper-3GskID, .animatorLeft-1I1Kvj.translate-2vghI-.didRender-2dwLEv,
-.lookFilled-GPyucw.select-Zz0IcO,
-#popout_6584, .wrapper-2vIMkT, /* .wrapper-2fEmwW, */ .actionButtons-2vEOUh > *,
-.jumpToPresentBar-1cEnH0.barBase-3xxDXu,
-.loaded-igpmmx,
-.row--LCpto {
-  border: 0px solid var(--foreground); 
 }
