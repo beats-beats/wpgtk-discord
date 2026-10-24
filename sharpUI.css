@@ -87,3 +87,328 @@ input[type="radio"] {
 input[type="radio"]:checked {
   background: currentColor;
 }
+
+
+/* my personal changes to discord (make it more compact and style it to match my window manager) */
+*, *::before, *::after {
+  font-family: monospace !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  mask: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  /* -webkit-mask: !important; */
+}
+
+circle {
+  display: none !important
+}
+
+/* sidebar (channel sidebar) */
+
+.sidebar-1tnWFu {
+  width: 200px;
+}
+
+.container-2giAcK {
+  margin: 0px;
+}
+
+.side-1lrxIh .item-2GWPIy {
+  margin: 0px;
+}
+
+.sidebar-1tnWFu *{
+  border: 0;
+}
+
+.container-YkUktl {
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.withTagAsButton-OsgQ9L {
+  margin: 0;
+  padding: 0 0;
+  min-width: 104px;
+}
+
+.withTagAsButton-OsgQ9L .nameTag-sc-gpq, .withTagless-10ooWt .nameTag-sc-gpq {
+  padding: 0;
+  margin: 0 4px;
+}
+
+.itemInner-3k3Sn6 {
+  margin: 0;
+}
+
+.subtext-2HDqJ7 {
+  display: none;
+}
+
+li.containerDefault-3TQ5YN:nth-of-type(1) {
+  padding: 0;
+}
+
+.buttonIcon-2Zsrs2 {
+  width: 10px;
+  height: 10px;
+}
+
+.button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
+  padding: 0;
+  margin: 0;
+}
+
+.link-1_kTxV {
+  margin: 0;
+}
+
+/* sidebar (hub) */
+.hubContainer-15P49h {
+  margin: 0px;
+}
+
+/* sidebar (discovery) */
+.categoryItem-Kc_HK_ {
+  margin: 0;
+}
+
+.discoverHeader-1vsvZ0 {
+  margin: 5px;
+}
+
+/* sidebar (DM) */
+.channel-1Shao0 {
+  margin: 0
+}
+
+.container-32HW5s {
+  padding: 0
+}
+
+/* main window (DM) */
+.peopleListItem-u6dGxF, .peopleListItem-u6dGxF:hover, .peopleListItem-u6dGxF.active-2UF8Zh {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.title-x4dI75 {
+ margin: 0;
+ margin-left: 10px;
+}
+
+.searchBar-2aylmZ {
+  margin: 0px;
+  padding: 5px;
+}
+
+.tabBar-ra-EuL .item-3mHhwr {
+  margin: 0px;
+}
+
+/* .subtext-2HDqJ7 { */
+/*   display: none; */
+/* } */
+
+.content-1gYQeQ {
+  margin: 0;
+}
+
+.wrapper-NhbLHG {
+  padding: 0;
+  margin: 0;
+}
+
+/*scrollbar todo */
+.sidebar-1tnWFu ::-webkit-scrollbar {
+  display: none;
+}
+
+/* sidebar (members list) */
+.memberInner--L4X2b {
+  padding: 0;
+}
+
+.member-48YF_l, .members-3WRCEx {
+  margin: 0;
+  padding: 0;
+}
+
+.container-1oeRFJ {
+  padding: 0;
+}
+
+.membersGroup-2eiWxl {
+  padding: 15px 4px;
+  height: 20px;
+}
+
+.layout-1qmrhw {
+  padding: 0;
+  height: auto;
+}
+
+/* sidebar (server list) */
+.guilds-2JjMmN, .listItem-3SmSlK {
+  width: 48px;
+}
+
+.item-2LIpTv {
+ width: 1000px;
+ margin: 0;
+}
+
+.scroller-3X7KbA {
+  padding: 0;
+}
+
+.listItem-3SmSlK {
+  margin: 0px 0;
+  width: 48px;
+}
+
+.expandedFolderBackground-1kSAf6 {
+  display: none;
+}
+
+ul[id*='folder-items'] {
+ height: auto !important;
+}
+
+/* context menu */
+.scroller-nxCRu_:not(.none-1rXy4P) {
+  overflow: hidden hidden !important;
+  padding: 0;
+}
+
+.separator-12G2Op {
+  margin: 0;
+  /* display: none; */
+}
+
+.submenuPaddingContainer-QgnL1r {
+  /* remove padding between submenu */
+  padding: 0;
+}
+
+.item-5ApiZt {
+  margin: 0
+}
+
+/* remove some seperators */
+.menu-2-eHMB div[role=separator] {
+  display: none;
+}
+
+/* user profile */
+.userPopoutOverlayBackground-3A0Pcz {
+ margin: 4px 0; 
+}
+
+/* forum card */
+.container-2qVG6q.mainCard-3KBsBI {
+  border: 1px var(--foreground) solid; 
+}
+
+/* hide nitro from input area */
+.buttons-uaqb-5 > .button-ejjZWC[aria-label="Send a gift"] {
+  display: none
+}
+
+/* main chat window (messages main window) */
+/* just adjusting the scrollbar width */
+.scroller-kQBbkU::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* input area */
+.form-3gdLxP {
+  padding: 0;
+  margin: 0;
+}
+
+/* header moment */
+.header-3OsQeK {
+  padding: 7.5px;
+}
+
+.container-ZMc96U {
+  height: 40px;
+  padding: 0px;
+}
+
+/* notification draw inline tag margin */
+.header-145e10 .tab-TRrPC8.expanded-2H1xJ- {
+  margin: 0;
+}
+
+/* remove blank div from sidebar (this used to break shit)*/
+.content-yjf30S div[style="height: 12px;"] {
+  height: 0px !important;
+}
+
+.content-yjf30S div[style="height: 84px;"] {
+  height: 0px !important; 
+}
+
+.sectionDivider-189lqb, .container-2giAcK {
+  display: none;
+}
+
+/* hide shit */
+.searchBar-3TnChZ {
+  display: none;
+}
+
+.animatedContainer-2laTjx, .communityInfoContainer-1dMVpU {
+  display: none;
+}
+
+.cursorDefault-2M8ZNp {
+  display: none
+}
+
+.guildSeparator-a4uisj {
+  display: none;
+}
+
+.slider-HJFN2i {
+  display: none;
+}
+
+.headerImage-Xy5R7m.desaturate-_Twf3u, .headerImage-2D5D-v.desaturate-_Twf3u {
+  display: none
+}
+
+/* adding sidebar borders and shit (OPTIONAL)*/
+.sidebar-1tnWFu {
+  border-right: 1px solid var(--foreground);
+  border-left: 1px solid var(--foreground); 
+}
+
+.container-2o3qEW {
+  border-left: 1px solid var(--foreground); 
+}
+
+.form-3gdLxP {
+  border-top: 1px solid var(--foreground); 
+}
+
+.title-31SJ6t, .header-3OsQeK {
+  border-bottom: 1px solid var(--foreground); 
+}
+
+.accountProfileCard-lbN7n-, .container-2ebMPP,
+.scroller-nxCRu_:not(.none-1rXy4P),
+.accountProfilePopoutWrapper-3GskID, .animatorLeft-1I1Kvj.translate-2vghI-.didRender-2dwLEv,
+.lookFilled-GPyucw.select-Zz0IcO,
+#popout_6584, .wrapper-2vIMkT, /* .wrapper-2fEmwW, */ .actionButtons-2vEOUh > *,
+.jumpToPresentBar-1cEnH0.barBase-3xxDXu,
+.loaded-igpmmx,
+.row--LCpto {
+  border: 0px solid var(--foreground); 
+}
